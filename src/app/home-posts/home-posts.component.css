@@ -1,4 +1,6 @@
 .post {
-  width: 50%;
+  width: 48%;
+  margin: 0 1%;
   display: inline-block;
+  vertical-align: top;
 }

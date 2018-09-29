@@ -3,7 +3,8 @@
 .summarized-post {
   display: block;
   vertical-align: top;
-  border-bottom: 1px solid lightgray;
+  border: 1px solid lightgray;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
