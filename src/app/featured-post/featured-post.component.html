@@ -1,6 +1,11 @@
-<div>
-  <h4>{{article.title}}</h4>
-  <p *ngFor="let section of article.sections">
-    {{section}}
-  </p>
+<div class="featured">
+  <img class="img" width="500" height="250" src={{image}}>
+  <div class="text-wrapper">
+    <h4 class="title">{{title}}</h4>
+    <br>
+    <p class="preview">{{body}}</p>
+    <br>
+    <a href="#read-more" class="read-more">Read More</a>
+  </div>
 </div>
+
