@@ -12,7 +12,7 @@ export class ArticleService {
     return [
       new Article(
         'The long and winding road',
-        'https://images.unsplash.com/photo-1537224232456-2815948a502e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d440476b69d3efaecaf5334ed28afeb3&auto=format&fit=crop&w=2251&q=80',
+        'https://images.pexels.com/photos/9521/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=250',
         [
           'The long and winding road That leads to your door Will never disappear Ive seen that road before It always leads me here Lead me to you door',
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend nunc nisi, sed placerat augue semper vitae. Etiam id lectus sem. In commodo ac ex sed blandit. Aliquam scelerisque facilisis ante vel facilisis. Nullam finibus, ligula ut sollicitudin rutrum, purus ipsum suscipit dolor, eu vestibulum nibh leo in felis. In aliquam aliquet diam quis iaculis. Aliquam tortor leo, porttitor condimentum eleifend vitae, tempus ac felis. Aenean varius sit amet quam at venenatis. Nullam vel ligula nec risus cursus imperdiet. Proin quam nibh, venenatis vel metus eu, maximus hendrerit sapien. Donec placerat lorem vitae leo lobortis tristique. Duis rutrum magna et nibh dictum accumsan non non augue. Praesent hendrerit nunc nec facilisis ultrices. Donec fringilla porta semper. Morbi rhoncus est dolor, sed semper est aliquam et. Suspendisse pharetra massa sit amet ligula condimentum, sed vestibulum mauris eleifend.',
@@ -24,7 +24,7 @@ export class ArticleService {
       ),
       new Article(
         'If I fell',
-        'https://www199.lunapic.com/do-not-link-here-use-hosting-instead/15382435658914013?6794573977',
+        'https://images.pexels.com/photos/5390/sunset-hands-love-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=250',
         [
           'If I fell in love with you Would your promise to be true And help me understand Cause Ive been in love before and I found that love was more than just holding hands If I gave my heart to you I must be sure',
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend nunc nisi, sed placerat augue semper vitae. Etiam id lectus sem. In commodo ac ex sed blandit. Aliquam scelerisque facilisis ante vel facilisis. Nullam finibus, ligula ut sollicitudin rutrum, purus ipsum suscipit dolor, eu vestibulum nibh leo in felis. In aliquam aliquet diam quis iaculis. Aliquam tortor leo, porttitor condimentum eleifend vitae, tempus ac felis. Aenean varius sit amet quam at venenatis. Nullam vel ligula nec risus cursus imperdiet. Proin quam nibh, venenatis vel metus eu, maximus hendrerit sapien. Donec placerat lorem vitae leo lobortis tristique. Duis rutrum magna et nibh dictum accumsan non non augue. Praesent hendrerit nunc nec facilisis ultrices. Donec fringilla porta semper. Morbi rhoncus est dolor, sed semper est aliquam et. Suspendisse pharetra massa sit amet ligula condimentum, sed vestibulum mauris eleifend.',

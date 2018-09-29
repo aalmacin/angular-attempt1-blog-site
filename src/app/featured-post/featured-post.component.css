@@ -4,9 +4,15 @@
   display: block;
 }
 
+.img-holder {
+  display: inline-block;
+  width: 50%;
+  vertical-align: bottom;
+}
+
 .img {
   vertical-align: top;
-  width: 50%;
+  width: 100%;
 }
 
 .text-wrapper {

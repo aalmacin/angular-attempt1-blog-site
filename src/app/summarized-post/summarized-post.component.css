@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+.summarized-post {
+  display: block;
+  vertical-align: top;
+  border-bottom: 1px solid lightgray;
+}
+
+.img-holder {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.summarized-post img {
+  display: inline;
+  width: 100%;
+}
+
+.summarized-post h4 {
+  display: block;
+  text-align: center;
+}
+
+.summarized-post p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #343434;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Passion One', cursive;
+  padding: 2%;
+  color: #FAFAFA;
+}
