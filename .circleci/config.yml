@@ -13,7 +13,6 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run: npx ng test
       - run: echo "Started Build"
       - run: npx ng build
 
