@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Bree+Serif');
 
 .summarized-post {
   display: block;
   vertical-align: top;
   border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
 }
 
 .img-holder {
@@ -20,6 +21,7 @@
 .summarized-post h4 {
   display: block;
   text-align: center;
+  font-family: 'Bree Serif', serif;
 }
 
 .summarized-post p {

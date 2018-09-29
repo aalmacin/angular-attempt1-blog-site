@@ -13,7 +13,7 @@ export class SummarizedPostComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.preview = this.article.sections[0].slice(0, 100) + '...';
+    this.preview = this.article.sections[0].slice(0, 200) + '...';
   }
 
 }
