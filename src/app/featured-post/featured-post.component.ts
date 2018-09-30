@@ -1,4 +1,4 @@
-import {Component, Inject, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../article.service';
 import {Article} from '../article';
 
@@ -9,18 +9,22 @@ import {Article} from '../article';
 })
 export class FeaturedPostComponent implements OnInit {
   private article: Article;
-  title: string;
-  body: string;
-  image: string;
+  title = '';
+  body = '';
+  image = '';
 
   constructor(articleService: ArticleService) {
     this.article = articleService.getFeatured();
   }
 
   ngOnInit() {
-    this.title = this.article.title;
-    this.image = this.article.imageUrl;
-    this.body = this.article.sections[0].slice(0, 150) + '...';
+    if (this.article) {
+      this.title = this.article.title;
+      this.image = this.article.imageUrl;
+      if (this.article.sections) {
+        this.body = this.article.sections[0].slice(0, 150) + '...';
+      }
+    }
   }
 
 }

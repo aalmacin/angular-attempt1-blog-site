@@ -8,12 +8,14 @@ import {Article} from '../article';
 })
 export class SummarizedPostComponent implements OnInit {
   @Input() article: Article;
-  preview: string;
+  preview = '';
 
   constructor() { }
 
   ngOnInit() {
-    this.preview = this.article.sections[0].slice(0, 200) + '...';
+    if (this.article && this.article.sections) {
+      this.preview = this.article.sections[0].slice(0, 200) + '...';
+    }
   }
 
 }

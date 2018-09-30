@@ -1,10 +1,18 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {FeaturedPostComponent} from './featured-post/featured-post.component';
+import {HomePostsComponent} from './home-posts/home-posts.component';
+import {SummarizedPostComponent} from './summarized-post/summarized-post.component';
+import {SubscribeBoxComponent} from './subscribe-box/subscribe-box.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        FeaturedPostComponent,
+        HomePostsComponent,
+        SummarizedPostComponent,
+        SubscribeBoxComponent
       ],
     }).compileComponents();
   }));
@@ -13,15 +21,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'blog'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('blog');
-  }));
-  it('should render title in a h1 tag', async(() => {
+
+  it('should render Home in nav bar', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to blog!');
+
+    expect(Array.from(compiled.querySelectorAll('.main-nav li a'))
+      .map(
+        (htmlNode: HTMLElement) => htmlNode.textContent
+      )).toEqual(['Home', 'Articles']);
   }));
 });
